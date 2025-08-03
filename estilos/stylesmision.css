@@ -1,0 +1,94 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 30px 20px;
+  color: #333;
+}
+
+ h1 {
+  text-align: center;
+  color: #be2929;
+  font-size: 42px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+ .mision-vision {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto 50px;
+}
+
+ .mision, .vision {
+  background-color: #fff;
+  border-left: 6px solid #dd3721;
+  border-radius: 10px;
+  padding: 25px 30px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.mision:hover, .vision:hover {
+  transform: scale(1.02);
+}
+
+ .mision h2, .vision h2 {
+  color: #be2929;
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ .mision p, .vision p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+  color: #444;
+}
+
+ .volver {
+  margin: 30px 20px;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.volver a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.volver a:hover {
+  color: #005999;
+  text-decoration: underline;
+}
+
+ @media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .mision, .vision {
+    width: 90%;
+    padding: 20px;
+  }
+}

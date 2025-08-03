@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+h1 {
+  text-align: center;
+  color: #be2929;
+  font-size: 42px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.autor {
+  background-color: #f3f3f3;
+  border-left: 8px solid #be2929;
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.autor h2 {
+  color: #be2929;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.autor p {
+  font-size: 16px;
+  text-align: justify;
+  color: #333;
+}
+
+ .volver {
+  margin: 30px 20px;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.volver a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.volver a:hover {
+  color: #005999;
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .autor {
+    padding: 15px;
+    margin: 20px 10px;
+  }
+
+  .autor h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .autor p {
+    font-size: 15px;
+  }
+}
