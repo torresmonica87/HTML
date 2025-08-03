@@ -7,11 +7,21 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: aliceblue ;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+ .titulo {
+  text-align: center;
+  color: #640202;
+  font-size: 42px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .contenedor {
@@ -45,5 +55,5 @@ button {
 }
 
 button:hover {
-  background-color: #2e9b4f;  
+  background-color: #2e9b4f;
 }
